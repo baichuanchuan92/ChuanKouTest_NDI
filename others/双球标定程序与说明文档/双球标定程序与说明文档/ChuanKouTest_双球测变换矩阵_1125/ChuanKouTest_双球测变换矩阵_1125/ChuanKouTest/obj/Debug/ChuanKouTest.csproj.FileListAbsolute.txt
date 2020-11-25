@@ -1,0 +1,49 @@
+E:\DEMOS\ChuanKouTest\ChuanKouTest\bin\Debug\ChuanKouTest.exe.config
+E:\DEMOS\ChuanKouTest\ChuanKouTest\bin\Debug\ChuanKouTest.exe
+E:\DEMOS\ChuanKouTest\ChuanKouTest\bin\Debug\ChuanKouTest.pdb
+E:\DEMOS\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.csprojResolveAssemblyReference.cache
+E:\DEMOS\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.chuankou.resources
+E:\DEMOS\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.Properties.Resources.resources
+E:\DEMOS\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.csproj.GenerateResource.Cache
+E:\DEMOS\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.exe
+E:\DEMOS\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.pdb
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\ChuanKouTest\ChuanKouTest\bin\Debug\ChuanKouTest.exe.config
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\ChuanKouTest\ChuanKouTest\bin\Debug\ChuanKouTest.exe
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\ChuanKouTest\ChuanKouTest\bin\Debug\ChuanKouTest.pdb
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.csprojAssemblyReference.cache
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.chuankou.resources
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.Properties.Resources.resources
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.csproj.GenerateResource.cache
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.csproj.CoreCompileInputs.cache
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.exe
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.pdb
+D:\大三上\小并联结构\control\ChuanKouTest\ChuanKouTest\bin\Debug\ChuanKouTest.exe.config
+D:\大三上\小并联结构\control\ChuanKouTest\ChuanKouTest\bin\Debug\ChuanKouTest.exe
+D:\大三上\小并联结构\control\ChuanKouTest\ChuanKouTest\bin\Debug\ChuanKouTest.pdb
+D:\大三上\小并联结构\control\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.csprojAssemblyReference.cache
+D:\大三上\小并联结构\control\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.chuankou.resources
+D:\大三上\小并联结构\control\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.Properties.Resources.resources
+D:\大三上\小并联结构\control\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.csproj.GenerateResource.cache
+D:\大三上\小并联结构\control\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.csproj.CoreCompileInputs.cache
+D:\大三上\小并联结构\control\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.exe
+D:\大三上\小并联结构\control\ChuanKouTest\ChuanKouTest\obj\Debug\ChuanKouTest.pdb
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\并联机构代码集\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\bin\Debug\ChuanKouTest.exe.config
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\并联机构代码集\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\bin\Debug\ChuanKouTest.exe
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\并联机构代码集\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\bin\Debug\ChuanKouTest.pdb
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\并联机构代码集\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.csprojAssemblyReference.cache
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\并联机构代码集\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.chuankou.resources
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\并联机构代码集\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.Properties.Resources.resources
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\并联机构代码集\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.csproj.GenerateResource.cache
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\并联机构代码集\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.csproj.CoreCompileInputs.cache
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\并联机构代码集\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.exe
+C:\Users\giuyyt\Desktop\资料_研究生\c sharp\并联机构代码集\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.pdb
+C:\Users\11258\Desktop\ChuanKouTest_三TRACKER实验_整理_1125_txt输入\双球标定程序与说明文档\双球标定程序与说明文档\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\bin\Debug\ChuanKouTest.exe.config
+C:\Users\11258\Desktop\ChuanKouTest_三TRACKER实验_整理_1125_txt输入\双球标定程序与说明文档\双球标定程序与说明文档\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\bin\Debug\ChuanKouTest.exe
+C:\Users\11258\Desktop\ChuanKouTest_三TRACKER实验_整理_1125_txt输入\双球标定程序与说明文档\双球标定程序与说明文档\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\bin\Debug\ChuanKouTest.pdb
+C:\Users\11258\Desktop\ChuanKouTest_三TRACKER实验_整理_1125_txt输入\双球标定程序与说明文档\双球标定程序与说明文档\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.csprojAssemblyReference.cache
+C:\Users\11258\Desktop\ChuanKouTest_三TRACKER实验_整理_1125_txt输入\双球标定程序与说明文档\双球标定程序与说明文档\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.chuankou.resources
+C:\Users\11258\Desktop\ChuanKouTest_三TRACKER实验_整理_1125_txt输入\双球标定程序与说明文档\双球标定程序与说明文档\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.Properties.Resources.resources
+C:\Users\11258\Desktop\ChuanKouTest_三TRACKER实验_整理_1125_txt输入\双球标定程序与说明文档\双球标定程序与说明文档\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.csproj.GenerateResource.cache
+C:\Users\11258\Desktop\ChuanKouTest_三TRACKER实验_整理_1125_txt输入\双球标定程序与说明文档\双球标定程序与说明文档\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.csproj.CoreCompileInputs.cache
+C:\Users\11258\Desktop\ChuanKouTest_三TRACKER实验_整理_1125_txt输入\双球标定程序与说明文档\双球标定程序与说明文档\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.exe
+C:\Users\11258\Desktop\ChuanKouTest_三TRACKER实验_整理_1125_txt输入\双球标定程序与说明文档\双球标定程序与说明文档\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest_双球测变换矩阵_1125\ChuanKouTest\obj\Debug\ChuanKouTest.pdb

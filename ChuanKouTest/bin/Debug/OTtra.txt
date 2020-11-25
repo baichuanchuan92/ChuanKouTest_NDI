@@ -1,0 +1,2 @@
+机构的.tra绝对地址::C:\Users\giuyyt\Desktop\JGTracker.tra
+针的.tra绝对地址::C:\Users\giuyyt\Desktop\ZHENTracker.tra

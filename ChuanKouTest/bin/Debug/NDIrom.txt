@@ -1,0 +1,3 @@
+机构.rom绝对路径::C://Users//giuyyt//Desktop//20191021_340//340_202012.rom
+骨盆.rom绝对路径::C://Users//giuyyt//Desktop//20191021_340//Right-20191108.rom
+针.rom绝对路径::C://Users//giuyyt//Desktop//20191021_340//8700449.rom

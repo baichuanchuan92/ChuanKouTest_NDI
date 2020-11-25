@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KinematicConfig>
+  <xs:schema id="KinematicConfig" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="KinematicConfig" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DHParameter">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="D0" type="xs:string" minOccurs="0" />
+                <xs:element name="D1" type="xs:string" minOccurs="0" />
+                <xs:element name="D2" type="xs:string" minOccurs="0" />
+                <xs:element name="D3" type="xs:string" minOccurs="0" />
+                <xs:element name="D4" type="xs:string" minOccurs="0" />
+                <xs:element name="D5" type="xs:string" minOccurs="0" />
+                <xs:element name="A0" type="xs:string" minOccurs="0" />
+                <xs:element name="A1" type="xs:string" minOccurs="0" />
+                <xs:element name="A2" type="xs:string" minOccurs="0" />
+                <xs:element name="A3" type="xs:string" minOccurs="0" />
+                <xs:element name="A4" type="xs:string" minOccurs="0" />
+                <xs:element name="A5" type="xs:string" minOccurs="0" />
+                <xs:element name="DetaTheta0" type="xs:string" minOccurs="0" />
+                <xs:element name="DetaTheta1" type="xs:string" minOccurs="0" />
+                <xs:element name="DetaTheta2" type="xs:string" minOccurs="0" />
+                <xs:element name="DetaTheta3" type="xs:string" minOccurs="0" />
+                <xs:element name="DetaTheta4" type="xs:string" minOccurs="0" />
+                <xs:element name="DetaTheta5" type="xs:string" minOccurs="0" />
+                <xs:element name="Alpha0" type="xs:string" minOccurs="0" />
+                <xs:element name="Alpha1" type="xs:string" minOccurs="0" />
+                <xs:element name="Alpha2" type="xs:string" minOccurs="0" />
+                <xs:element name="Alpha3" type="xs:string" minOccurs="0" />
+                <xs:element name="Alpha4" type="xs:string" minOccurs="0" />
+                <xs:element name="Alpha5" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DHParameter>
+    <D0>89.159</D0>
+    <D1>0</D1>
+    <D2>0</D2>
+    <D3>109.15</D3>
+    <D4>94.65</D4>
+    <D5>82.3</D5>
+    <A0>0</A0>
+    <A1>-425</A1>
+    <A2>-392.25</A2>
+    <A3>0</A3>
+    <A4>0</A4>
+    <A5>0</A5>
+    <DetaTheta0>0</DetaTheta0>
+    <DetaTheta1>0</DetaTheta1>
+    <DetaTheta2>0</DetaTheta2>
+    <DetaTheta3>0</DetaTheta3>
+    <DetaTheta4>0</DetaTheta4>
+    <DetaTheta5>0</DetaTheta5>
+    <Alpha0>1.5707963267949</Alpha0>
+    <Alpha1>0</Alpha1>
+    <Alpha2>0</Alpha2>
+    <Alpha3>1.5707963267949</Alpha3>
+    <Alpha4>-1.5707963267949</Alpha4>
+    <Alpha5>0</Alpha5>
+  </DHParameter>
+</KinematicConfig>
