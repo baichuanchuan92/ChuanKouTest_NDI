@@ -2906,6 +2906,7 @@ namespace ChuanKouTest
             else
             {
                 CommandStewartTotalFunction();
+                //测试
             }
         }
 
