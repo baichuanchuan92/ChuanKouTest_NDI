@@ -469,7 +469,8 @@ namespace ChuanKouTest
         ///给定x轴、y轴、z轴的平移（mm）和旋转（°）的量，以及运动时间（ms）
         ///会返回帧
         /// </summary>
-        /// <param name="Position1"></param>
+        /// <param name="Position
+        /// 1"></param>
         /// <param name="Position2"></param>
         /// <param name="Position11"></param>
         /// <param name="Position12"></param>

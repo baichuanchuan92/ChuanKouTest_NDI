@@ -1,0 +1,28 @@
+2020/11/25 11:13:02
+angleX:0
+angleY:0
+angleZ:0
+translationX:0
+translationY:0
+translationZ:0
+Motor1:1250
+Motor2:1250
+Motor3:1250
+Motor4:1250
+Motor5:1250
+Motor6:1250
+
+2020/11/25 11:13:27
+angleX:0
+angleY:0
+angleZ:0
+translationX:0
+translationY:0
+translationZ:0
+Motor1:1250
+Motor2:1250
+Motor3:1250
+Motor4:1250
+Motor5:1250
+Motor6:1250
+

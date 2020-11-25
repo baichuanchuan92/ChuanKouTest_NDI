@@ -7,7 +7,7 @@ using System.Windows.Media.Media3D;
 using Kitware.VTK;
 using System.Collections.Generic;
 using System.Drawing;
-
+using System.Text;
 
 namespace ChuanKouTest
 {
@@ -34,8 +34,7 @@ namespace ChuanKouTest
 
 
 
-        
-
+      
 
         /***************************/
         //反馈控制相关
@@ -2900,7 +2899,14 @@ namespace ChuanKouTest
 
         private void CommandStewartBtn_Click(object sender, EventArgs e)
         {
-            CommandStewartTotalFunction();
+            if(Stewart.IsImportPram == false)
+            {
+                MessageBox.Show("参数未导入", "警告");
+            }
+            else
+            {
+                CommandStewartTotalFunction();
+            }
         }
 
         private void NeedleCtrlBtn_Click(object sender, EventArgs e)
@@ -2971,6 +2977,8 @@ namespace ChuanKouTest
             {
                 tempLen = LenArray[i] - Stewart.MotorLenOri;
                 MotorCommandArray[i] = Convert.ToUInt16(tempLen * Motor.MotorMaxNum / Motor.MotorMaxLength + 500);
+                //是否再次增加初始偏移
+                //MotorCommandArray[i] = Convert.ToUInt16(tempLen * Motor.MotorMaxNum / Motor.MotorMaxLength + 1250);
             }
 
             string Mege2 =
@@ -2989,15 +2997,67 @@ namespace ChuanKouTest
                 ;
             MessageBox.Show(Mege2, "提示");
 
-            //发送指令
-            Motor.CommandAllMotor(
-                MotorCommandArray[0],
-                MotorCommandArray[1],
-                MotorCommandArray[2],
-                MotorCommandArray[3],
-                MotorCommandArray[4],
-                MotorCommandArray[5]
-                );
+            //判断是否超过阈值
+            bool IsOverThreshold = false;
+            for (UInt16 i = 0; i < 6; i++)
+            {
+                if (MotorCommandArray[i] < 500 || MotorCommandArray[i] > 2000)
+                {
+                    IsOverThreshold = true;
+                    break;
+                }
+            }
+            //提示超过阈值显示
+            if(IsOverThreshold == true)
+            {
+                StringBuilder str = new StringBuilder();
+                str.Append("超过阈值\n");
+                for (UInt16 i = 0; i < 6; i++)
+                {
+                    if (MotorCommandArray[i] < 500 || MotorCommandArray[i] > 2000)
+                    {
+                        str.Append("Motor");
+                        str.Append(i + 1);
+                        str.Append(" : ");
+                        str.Append(MotorCommandArray[i]);
+                        str.Append("\n");
+                    }
+                }
+                MessageBox.Show(str.ToString(), "警告");
+            }
+            else
+            {
+             //文件写入
+             string pathnow = Directory.GetCurrentDirectory()+ "\\ParamsRecode.txt";
+             FileStream fs;
+             if (!File.Exists(pathnow))
+             {
+                fs = new FileStream(pathnow, FileMode.Create);
+             }
+             else
+             {
+                 fs = new FileStream(pathnow, FileMode.Append);
+             }
+             StringBuilder str = new StringBuilder();
+             Encoding encoder = Encoding.UTF8;
+             str.Append(DateTime.Now.ToString());
+             str.Append("\n");
+             str.Append(Mege2);
+             str.Append("\n");
+             byte[] bytes = encoder.GetBytes(str.ToString());
+             fs.Write(bytes,0, bytes.Length);
+             fs.Close();
+
+             //发送指令
+             Motor.CommandAllMotor(
+             MotorCommandArray[0],
+             MotorCommandArray[1],
+             MotorCommandArray[2],
+             MotorCommandArray[3],
+             MotorCommandArray[4],
+             MotorCommandArray[5]
+             );
+            }
         }
 
 

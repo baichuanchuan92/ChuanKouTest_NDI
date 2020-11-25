@@ -77,7 +77,8 @@ namespace ChuanKouTest
 
 
 
-
+        //是否导入参数
+        public static bool  IsImportPram = false;
 
 
 
@@ -377,7 +378,7 @@ namespace ChuanKouTest
             {
                 string Line;
                 string[] PathTemp;
-
+                StringBuilder str = new StringBuilder();
 
 
 
@@ -393,7 +394,10 @@ namespace ChuanKouTest
                     {
                         PathTemp = Line.Split(new string[] { "::" }, StringSplitOptions.None);
                         xp = Convert.ToDouble(PathTemp[1]);
-                        MessageBox.Show(Convert.ToString(xp), "xp");
+                        //MessageBox.Show(Convert.ToString(xp), "xp");
+                        str.Append("xp : ");
+                        str.Append(xp);
+                        str.Append("\n\n");
                     }
 
                     //Index = 1,yp
@@ -401,7 +405,10 @@ namespace ChuanKouTest
                     {
                         PathTemp = Line.Split(new string[] { "::" }, StringSplitOptions.None);
                         yp = Convert.ToDouble(PathTemp[1]);
-                        MessageBox.Show(Convert.ToString(yp), "yp");
+                        //MessageBox.Show(Convert.ToString(yp), "yp");
+                        str.Append("yp : ");
+                        str.Append(yp);
+                        str.Append("\n\n");
                     }
 
                     //Index = 2,zp
@@ -409,7 +416,10 @@ namespace ChuanKouTest
                     {
                         PathTemp = Line.Split(new string[] { "::" }, StringSplitOptions.None);
                         zp = Convert.ToDouble(PathTemp[1]);
-                        MessageBox.Show(Convert.ToString(zp), "zp");
+                        //MessageBox.Show(Convert.ToString(zp), "zp");
+                        str.Append("zp : ");
+                        str.Append(zp);
+                        str.Append("\n\n");
                     }
 
                     //Index =3,rUp
@@ -417,7 +427,10 @@ namespace ChuanKouTest
                     {
                         PathTemp = Line.Split(new string[] { "::" }, StringSplitOptions.None);
                         rUp = Convert.ToDouble(PathTemp[1]);
-                        MessageBox.Show(Convert.ToString(rUp), "rUp");
+                        //MessageBox.Show(Convert.ToString(rUp), "rUp");
+                        str.Append("rUp : ");
+                        str.Append(rUp);
+                        str.Append("\n\n");
                     }
 
                     //Index =4,rDown
@@ -425,7 +438,10 @@ namespace ChuanKouTest
                     {
                         PathTemp = Line.Split(new string[] { "::" }, StringSplitOptions.None);
                         rDown = Convert.ToDouble(PathTemp[1]);
-                        MessageBox.Show(Convert.ToString(rDown), "rDown");
+                        //MessageBox.Show(Convert.ToString(rDown), "rDown");
+                        str.Append("rDown : ");
+                        str.Append(rDown);
+                        str.Append("\n\n");
                     }
 
                     //Index =5,MotorLenOri
@@ -433,7 +449,10 @@ namespace ChuanKouTest
                     {
                         PathTemp = Line.Split(new string[] { "::" }, StringSplitOptions.None);
                         MotorLenOri = Convert.ToDouble(PathTemp[1]);
-                        MessageBox.Show(Convert.ToString(MotorLenOri), "MotorLenOri");
+                        //MessageBox.Show(Convert.ToString(MotorLenOri), "MotorLenOri");
+                        str.Append("MotoLenOri : ");
+                        str.Append(MotorLenOri);
+                        str.Append("\n\n");
                     }
 
                     //Index =6,UpAngleArray
@@ -446,7 +465,12 @@ namespace ChuanKouTest
                         for (int i = 0; i < DOF; i++) 
                         {
                             UpAngleArray[i] = Convert.ToDouble(UpAngleStrArray[i]);
-                            MessageBox.Show(UpAngleStrArray[i], "UpAngleArray"+ Convert.ToString(i));
+                            //MessageBox.Show(UpAngleStrArray[i], "UpAngleArray"+ Convert.ToString(i));
+                            str.Append("UpAngleArray");
+                            str.Append(i);
+                            str.Append(" : ");
+                            str.Append(UpAngleStrArray[i]);
+                            str.Append("\n\n");
                         }
 
                     }
@@ -461,7 +485,13 @@ namespace ChuanKouTest
                         for (int i = 0; i < DOF; i++)
                         {
                             DownAngleArray[i] = Convert.ToDouble(DownAngleStrArray[i]);
-                            MessageBox.Show(DownAngleStrArray[i], "DownAngleArray" + Convert.ToString(i));
+                            //MessageBox.Show(DownAngleStrArray[i], "DownAngleArray" + Convert.ToString(i));
+                            str.Append("DownAngleArray");
+                            str.Append(i);
+                            str.Append(" : ");
+                            str.Append(DownAngleStrArray[i]);
+                            str.Append("\n\n");
+
                         }
 
                     }
@@ -472,6 +502,8 @@ namespace ChuanKouTest
 
                     Index++;
                 }
+                IsImportPram = true;
+                MessageBox.Show(str.ToString(), "提示");
                 ReStewart.Close();
             }
 
